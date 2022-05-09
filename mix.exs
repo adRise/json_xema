@@ -4,7 +4,7 @@ defmodule JsonXema.MixProject do
   def project do
     [
       app: :json_xema,
-      version: "0.6.0",
+      version: "0.6.1",
       elixir: "~> 1.7",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -69,6 +69,8 @@ defmodule JsonXema.MixProject do
 
   defp package do
     [
+      organization: "tubitv",
+      description: "json_xema fork for tubitv",
       maintainers: ["Marcus Kruse"],
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/hrzndhrn/json_xema"},
